@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.h1 {
+  @apply font-poppins text-[36px] text-primary lg:text-[44px] md:text-[40px] tracking-[-2px] font-bold;
+}
+
+.h2 {
+  @apply font-poppins text-[26px] text-primary font-extrabold md:text-[30px] lg:text-[32px];
+}
+.h3 {
+  @apply font-poppins text-[30px] text-primary font-bold md:text-[36px];
+}
+
+.h2-medium {
+  @apply font-poppins text-[26px] text-primary font-medium md:text-[30px] lg:text-[32px];
+}
+
+.h3-medium {
+  @apply font-poppins text-[30px] text-primary font-medium md:text-[36px] tracking-[-2px];
+}
+
+.subtitle {
+  @apply font-poppins text-subColor text-[20px] md:text-[22px] lg:text-[24px];
+}
+
+.subtext {
+  @apply font-poppins text-subColor text-[18px] md:text-[20px] lg:text-[22px];
+}
+
+.badge {
+  @apply z-10 w-[180px] h-[68px] bg-white-400 backdrop-blur-[10px] shadow-2xl rounded-[10px] flex items-center;
+}
+
+.badge2 {
+  @apply z-10 w-[220px] h-[68px] bg-white-400 backdrop-blur-[5px] shadow-2xl rounded-[10px] flex items-center;
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8 py-5;
+  }
+
+  .info-text {
+    @apply text-slate-gray text-lg leading-7;
+  }
+
+  .active {
+    background: whitesmoke;
+  }
+}
