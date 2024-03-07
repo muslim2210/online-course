@@ -18,7 +18,6 @@ function App() {
       <Sponsor />
       <Service />
       <About />
-      <div className="h-[4000px]"></div>
     </main>
   );
 }
