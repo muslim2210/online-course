@@ -14,9 +14,17 @@ import {
   grab,
 } from "../assets/icons";
 
-export const sponsor = [google, netflix, airbnb, amazon, facebook, grab];
+import {
+  news1,
+  news2,
+  news3,
+  news4,
+  testimoni,
+  course1,
+  course2,
+} from "../assets/images";
 
-import { news1, news2, news3, news4, testimoni } from "../assets/images";
+export const sponsor = [google, netflix, airbnb, amazon, facebook, grab];
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -43,6 +51,19 @@ export const services = [
     label: "Customer Tracking",
     subtext:
       "Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization ",
+  },
+];
+
+export const about = [
+  {
+    imgURL: course1,
+    label: "for instructors",
+    button: "Star a class today",
+  },
+  {
+    imgURL: course2,
+    label: "for students",
+    button: "Enter access code",
   },
 ];
 

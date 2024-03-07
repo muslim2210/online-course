@@ -28,26 +28,23 @@ body {
 }
 
 .h2 {
-  @apply font-poppins text-[26px] text-primary font-extrabold md:text-[30px] lg:text-[32px];
-}
-.h3 {
-  @apply font-poppins text-[30px] text-primary font-bold md:text-[36px];
+  @apply font-poppins text-[28px] text-primary font-bold md:text-[32px] lg:text-[34px];
 }
 
 .h2-medium {
-  @apply font-poppins text-[26px] text-primary font-medium md:text-[30px] lg:text-[32px];
+  @apply font-poppins text-[28px] font-extralight text-primary md:text-[32px] lg:text-[34px];
+}
+
+.h3 {
+  @apply font-poppins text-[26px] text-primary font-extrabold md:text-[30px] lg:text-[32px];
 }
 
 .h3-medium {
-  @apply font-poppins text-[30px] text-primary font-medium md:text-[36px] tracking-[-2px];
+  @apply font-poppins text-[26px] text-primary font-thin md:text-[30px] tracking-[-2px];
 }
 
 .subtitle {
-  @apply font-poppins text-subColor text-[20px] md:text-[22px] lg:text-[24px];
-}
-
-.subtext {
-  @apply font-poppins text-subColor text-[18px] md:text-[20px] lg:text-[22px];
+  @apply font-poppins text-subColor text-[18px] md:text-[20px];
 }
 
 .badge {
