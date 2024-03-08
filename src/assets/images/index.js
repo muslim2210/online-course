@@ -13,6 +13,7 @@ import teacher1 from "./teacher1.png";
 import teachers from "./teachers.png";
 import testimoni from "./testimoni.png";
 import bgWave from "./bg-wave.svg";
+import classroom1 from "./classroom1.png";
 
 export {
   classroom,
@@ -30,4 +31,5 @@ export {
   teachers,
   testimoni,
   bgWave,
+  classroom1,
 };

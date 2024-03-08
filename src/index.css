@@ -24,7 +24,7 @@ body {
 }
 
 .h1 {
-  @apply font-poppins text-[36px] text-primary lg:text-[44px] md:text-[40px] tracking-[-2px] font-bold;
+  @apply font-poppins text-[36px] text-primary lg:text-[44px] md:text-[40px] tracking-normal font-bold;
 }
 
 .h2 {
@@ -32,7 +32,7 @@ body {
 }
 
 .h2-medium {
-  @apply font-poppins text-[28px] font-extralight text-primary md:text-[32px] lg:text-[34px];
+  @apply font-poppins text-[28px] font-medium text-primary md:text-[32px] lg:text-[34px];
 }
 
 .h3 {
@@ -40,7 +40,7 @@ body {
 }
 
 .h3-medium {
-  @apply font-poppins text-[26px] text-primary font-thin md:text-[30px] tracking-[-2px];
+  @apply font-poppins text-[26px] text-primary font-extralight md:text-[30px] leading-normal;
 }
 
 .subtitle {

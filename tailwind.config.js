@@ -20,6 +20,8 @@ export default {
       backgroundImage: {
         hero: "url('assets/images/bg-heroNew.svg')",
         wave: "url('assets/images/bg-wave.svg')",
+        ellips: "url('assets/icons/ellips-orange.svg')",
+        ellipsMini: "url('assets/icons/Ellips-mini.png')",
       },
     },
   },

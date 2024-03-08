@@ -4,6 +4,7 @@ import { bgWave } from "./assets/images";
 import Sponsor from "./components/Sponsor";
 import Service from "./sections/Service";
 import About from "./sections/About";
+import Classroom from "./sections/Classroom";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Sponsor />
       <Service />
       <About />
+      <Classroom />
     </main>
   );
 }
