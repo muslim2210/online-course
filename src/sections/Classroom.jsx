@@ -9,7 +9,7 @@ import {
 
 const Classroom = () => {
   return (
-    <section className="max-container padding">
+    <section className="max-container padding-y">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-y-11 gap-x-8">
           {/* text-content */}
@@ -32,13 +32,17 @@ const Classroom = () => {
             </p>
           </div>
           {/* image-content */}
-          <div className="relative w-[360px] md:w-[560px] h-[285px] md:h-[380px] mx-auto">
+          <div className="relative w-[330px] md:w-[560px] h-[285px] md:h-[380px] mx-auto">
             <div className="absolute z-0 top-0 left-0">
               <img src={rectangle1} alt="" />
             </div>
 
             <div className="absolute w-full h-full p-4 z-10">
-              <img src={classroom1} alt="" className="w-full h-full" />
+              <img
+                src={classroom1}
+                alt=""
+                className="w-full h-full cursor-pointer"
+              />
             </div>
             <div className="absolute z-0 bottom-0 right-0">
               <img src={rectangle2} alt="" width={200} height={200} />

@@ -30,10 +30,14 @@ import cross from "./cross.svg";
 import logoPolygon from "./logo-polygon.png";
 import logo1 from "./logo1.png";
 import menuHamb from "./menu-hamb.svg";
-import features1 from "./features1.svg";
+import features1 from "./features1.png";
 import features2 from "./features2.svg";
 import features3 from "./features3.svg";
 import badge21 from "./badge2-1.svg";
+import ellipsBlue from "./ellips-blue.svg";
+import ellipsGreen from "./ellips-green.svg";
+import ellipsSm1 from "./ellips-sm1.svg";
+import ellipsSm2 from "./ellips-sm2.svg";
 
 export {
   airbnb,
@@ -72,4 +76,8 @@ export {
   features2,
   features3,
   badge21,
+  ellipsBlue,
+  ellipsGreen,
+  ellipsSm1,
+  ellipsSm2,
 };

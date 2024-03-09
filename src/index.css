@@ -32,7 +32,7 @@ body {
 }
 
 .h2-medium {
-  @apply font-poppins text-[28px] font-medium text-primary md:text-[32px] lg:text-[34px];
+  @apply font-poppins text-[28px] font-medium  text-primary md:text-[32px] lg:text-[34px];
 }
 
 .h3 {
@@ -40,7 +40,11 @@ body {
 }
 
 .h3-medium {
-  @apply font-poppins text-[26px] text-primary font-extralight md:text-[30px] leading-normal;
+  @apply font-nunito text-[26px] text-primary font-semibold md:text-[30px] leading-normal;
+}
+
+.h5 {
+  @apply font-nunito text-[14px] text-primary font-light tracking-widest md:text-[16px];
 }
 
 .subtitle {
@@ -62,6 +66,10 @@ body {
 
   .padding-x {
     @apply sm:px-16 px-8 py-5;
+  }
+
+  .padding-y {
+    @apply px-8 py-8 sm:px-16;
   }
 
   .info-text {

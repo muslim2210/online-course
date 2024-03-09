@@ -5,6 +5,14 @@ import Sponsor from "./components/Sponsor";
 import Service from "./sections/Service";
 import About from "./sections/About";
 import Classroom from "./sections/Classroom";
+import Features from "./sections/Features";
+import Teachers from "./sections/Teachers";
+import Assesments from "./sections/Assesments";
+import Gradebook from "./sections/Gradebook";
+import Discussions from "./sections/Discussions";
+import ButtonFeaturesSection from "./sections/ButtonFeaturesSection";
+import Intregations from "./sections/Intregations";
+import Testimonial from "./sections/Testimonial";
 
 function App() {
   return (
@@ -20,6 +28,14 @@ function App() {
       <Service />
       <About />
       <Classroom />
+      <Features />
+      <Teachers />
+      <Assesments />
+      <Gradebook />
+      <Discussions />
+      <ButtonFeaturesSection />
+      <Intregations />
+      <Testimonial />
     </main>
   );
 }
