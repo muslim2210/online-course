@@ -24,7 +24,7 @@ body {
 }
 
 .h1 {
-  @apply font-poppins text-[36px] text-primary lg:text-[44px] md:text-[40px] tracking-normal font-bold;
+  @apply font-poppins text-[36px] text-primary lg:text-[48px] md:text-[40px] font-bold;
 }
 
 .h2 {

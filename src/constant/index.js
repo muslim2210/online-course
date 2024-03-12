@@ -19,6 +19,7 @@ import {
   news2,
   news3,
   news4,
+  news6,
   testimoni,
   course1,
   course2,
@@ -28,7 +29,7 @@ export const sponsor = [google, netflix, airbnb, amazon, facebook, grab];
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#carrees", label: "Carrees" },
+  { href: "#carrees", label: "Careers" },
   { href: "#blog", label: "Blog" },
   { href: "#about-us", label: "About Us" },
 ];
@@ -97,24 +98,32 @@ export const newsUtama = [
   {
     imgURL: news1,
     label: "NEWS",
+    title:
+      "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
     text: "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively neque eveniet nesciunt quia reprehenderit accusamus consequuntur libero, aliquam error velit reiciendis veritatis aperiam, amet itaque ipsa porro.",
   },
 ];
 
-export const news = [
+export const newsColom = [
   {
-    imgURL: news2,
+    imgURL: news6,
     label: "PRESS RELEASE",
+    title:
+      "Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand",
     text: "Class Technologies Inc., the company that created Class, Class Technologies Inc., the company that created Class, Class Technologies Inc., the company that created Class,Class Technologies Inc., the company that created Class",
   },
   {
     imgURL: news3,
     label: "NEWS",
+    title:
+      "Zoom’s earliest investors are betting millions on a better Zoom for schools",
     text: "Zoom was never created to be a consumer product. Nonetheless, the Class Technologies Inc., the company that created Class, Class Technologies Inc., the company that created Class,Class Technologies Inc., the company that created Class",
   },
   {
     imgURL: news4,
     label: "PRESS RELEASE",
+    title:
+      "Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms",
     text: "This year, investors have reaped big financial returns from betting on Zoom Class Technologies Inc., the company that created Class, Class Technologies Inc., the company that created Class,Class Technologies Inc., the company that created Class",
   },
 ];

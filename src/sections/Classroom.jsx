@@ -32,7 +32,7 @@ const Classroom = () => {
             </p>
           </div>
           {/* image-content */}
-          <div className="relative w-[330px] md:w-[560px] h-[285px] md:h-[380px] mx-auto">
+          <div className="relative w-[350px] md:w-[560px] h-[285px] md:h-[380px] mx-auto">
             <div className="absolute z-0 top-0 left-0">
               <img src={rectangle1} alt="" />
             </div>

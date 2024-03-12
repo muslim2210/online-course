@@ -38,6 +38,7 @@ import ellipsBlue from "./ellips-blue.svg";
 import ellipsGreen from "./ellips-green.svg";
 import ellipsSm1 from "./ellips-sm1.svg";
 import ellipsSm2 from "./ellips-sm2.svg";
+import hr from "./hr.svg";
 
 export {
   airbnb,
@@ -80,4 +81,5 @@ export {
   ellipsGreen,
   ellipsSm1,
   ellipsSm2,
+  hr,
 };

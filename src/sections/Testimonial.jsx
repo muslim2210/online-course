@@ -5,7 +5,7 @@ import { testimoni } from "../assets/images";
 
 const Testimonial = () => {
   return (
-    <section className="max-container padding">
+    <section className="max-container padding md:mb-10 lg:mb-20">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-y-10 md:gap-14">
           <div className="flex flex-col gap-y-6 max-w-[450px] lg:w-full mx-auto">
@@ -29,10 +29,10 @@ const Testimonial = () => {
               <p>Are you too? Please give your assessment</p>
             </div>
             <div className="flex md:justify-center lg:justify-start mt-3">
-              <button className="flex gap-x-3 items-center font-nunito text-secondary border-2 border-secondary rounded-full pl-5  hover:bg-secondary hover:text-white">
+              <button className="flex gap-x-3 items-center font-nunito text-secondary border-2 border-secondary rounded-full pl-5  ">
                 <p>Write your assessment</p>
                 <div className="rounded-full border-2 border-secondary px-4 py-5">
-                  <img src={arrow} alt="" />
+                  <img src={arrow} alt="" className="" />
                 </div>
               </button>
             </div>
@@ -42,7 +42,7 @@ const Testimonial = () => {
             <div className="w-full pr-20 md:pr-24">
               <img src={testimoni} alt="" />
             </div>
-            <div className="absolute z-10 rounded-[20px] max-w-[500px] shadow-xl bottom-[20px] md:bottom-[-160px] bg-[#F67766] right-0 left-12 md:left-[80px] pl-3">
+            <div className="absolute z-10 rounded-[20px] max-w-[500px] shadow-xl top-[50%] md:top-[90%] bg-[#F67766] right-0 left-12 md:left-[80px] pl-3">
               <div className="w-full h-full bg-white py-3 px-7 md:py-6 md:px-8 rounded-[20px]">
                 <p className="text-xs md:text-lg font-nunito text-subColor">
                   "Thank you so much for your help. It's exactly what I've been

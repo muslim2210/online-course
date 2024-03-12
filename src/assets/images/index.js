@@ -8,6 +8,8 @@ import news1 from "./news1.png";
 import news2 from "./news2.png";
 import news3 from "./news3.png";
 import news4 from "./news4.png";
+import news5 from "./news5.png";
+import news6 from "./news6.png";
 import quis from "./quis.png";
 import teacher1 from "./teacher1.png";
 import teachers from "./teachers.png";
@@ -26,6 +28,8 @@ export {
   news2,
   news3,
   news4,
+  news5,
+  news6,
   quis,
   teacher1,
   teachers,

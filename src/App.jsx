@@ -13,6 +13,8 @@ import Discussions from "./sections/Discussions";
 import ButtonFeaturesSection from "./sections/ButtonFeaturesSection";
 import Intregations from "./sections/Intregations";
 import Testimonial from "./sections/Testimonial";
+import Blog from "./sections/Blog";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
       <section className="bg-none lg:bg-[#FFF2E1] lg:h-[700px]">
         <Nav />
         <Hero />
-        <div className="hidden lg:block z-10 lg:translate-y-[-200px] 2xl:translate-y-[-260px]">
+        <div className="hidden lg:block z-10 lg:translate-y-[-200px] 2xl:translate-y-[-240px]">
           <img src={bgWave} alt="" />
         </div>
       </section>
@@ -36,6 +38,8 @@ function App() {
       <ButtonFeaturesSection />
       <Intregations />
       <Testimonial />
+      <Blog />
+      <Footer />
     </main>
   );
 }
