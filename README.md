@@ -29,6 +29,12 @@ Google font: https://fonts.google.com/
 
 ### Home
 
+![alt text](https://github.com/muslim2210/online-course/blob/master/public/home.png?raw=true)
+
 ### Responsive preview
 
+![alt text](https://github.com/muslim2210/online-course/blob/master/public/preview.png?raw=true)
+
 ### Fullwebsite
+
+![alt text](https://github.com/muslim2210/online-course/blob/master/public/full.png?raw=true)
